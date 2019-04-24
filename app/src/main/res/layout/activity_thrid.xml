@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/login"
+    android:layout_height="match_parent"
+    tools:context=".Thrid">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_height="match_parent">
+
+       <Button
+           android:id="@+id/AddInformationId"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Add Information "
+           android:padding="10dp"
+           android:textAllCaps="false"
+           android:layout_marginBottom="20dp"
+           android:background="@drawable/thrid_button"
+
+           />
+       <Button
+           android:id="@+id/SearchInformationID"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Search Information"
+           android:padding="10dp"
+           android:textAllCaps="false"
+           android:layout_marginBottom="20dp"
+           android:background="@drawable/thrid_button"
+           />
+       <Button
+           android:id="@+id/UpdateInformationID"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Update and Delete  "
+           android:textAllCaps="false"
+           android:padding="10dp"
+           android:layout_marginBottom="20dp"
+           android:background="@drawable/thrid_button"
+           />
+
+
+   </LinearLayout>
+
+</LinearLayout>

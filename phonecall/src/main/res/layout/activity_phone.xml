@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+
+    tools:context=".Phone">
+
+
+    <EditText
+        android:id="@+id/ShowNumberID"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:cursorVisible="false"
+        android:background="@android:color/transparent"
+        />
+
+
+    <Button
+        android:id="@+id/OneID"
+        android:layout_below="@id/ShowNumberID"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="1  @"
+        android:layout_marginLeft="30dp"
+        />
+    <Button
+        android:id="@+id/twoID"
+        android:layout_below="@id/ShowNumberID"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="2  ABC"
+        android:layout_toRightOf="@id/OneID"
+        />
+    <Button
+        android:id="@+id/threeID"
+        android:layout_below="@id/ShowNumberID"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="3   DEF"
+        android:layout_toRightOf="@id/twoID"
+
+        />
+    <Button
+        android:id="@+id/fourID"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="4  GHI"
+        android:layout_below="@id/OneID"
+        android:layout_marginLeft="30dp"
+
+        />
+    <Button
+        android:id="@+id/fiveID"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="5   JKL"
+        android:layout_toRightOf="@id/fourID"
+        android:layout_alignTop="@id/fourID"
+
+
+
+        />
+    <Button
+        android:id="@+id/sixID"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="6   MNO"
+        android:layout_toRightOf="@id/fiveID"
+        android:layout_alignTop="@id/fiveID"
+
+
+
+
+        />
+
+    <Button
+        android:id="@+id/sevenId"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="7   PQRS"
+        android:layout_below="@id/fourID"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id="@+id/eightId"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="8   TUV"
+        android:layout_toRightOf="@id/sevenId"
+        android:layout_alignTop="@id/sevenId"
+        />
+    <Button
+        android:id="@+id/nineID"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="9   WXYZ"
+        android:layout_toRightOf="@id/eightId"
+        android:layout_alignTop="@id/eightId"
+
+        />
+
+    <Button
+
+        android:id="@+id/ZeroId"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="0   +"
+        android:layout_below="@id/sevenId"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="*   P"
+        android:id="@+id/starId"
+        android:layout_toRightOf="@id/ZeroId"
+        android:layout_alignTop="@id/ZeroId"
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="#    $"
+        android:id="@+id/HassId"
+        android:layout_toRightOf="@id/starId"
+        android:layout_alignTop="@id/starId"
+        />
+    <ImageButton
+        android:id="@+id/callID"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_call_black_24dp"
+        android:layout_below="@id/ZeroId"
+        android:layout_marginLeft="30dp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/dialID"
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@id/callID"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="0dp"
+
+
+        android:layout_toRightOf="@id/callID"
+        android:src="@drawable/ic_dialpad_black_24dp" />
+    <Button
+        android:id="@+id/clearID"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="c"
+        android:layout_toRightOf="@id/dialID"
+        android:layout_alignTop="@id/dialID"
+        />
+
+
+
+</RelativeLayout>

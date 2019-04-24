@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/RollID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Roll :"
+        android:gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+    android:gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    android:id="@+id/NameID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Name :"
+    android:inputType="text"
+    />
+    <EditText
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/AddressID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address :"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/SaveId"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Save"
+        />
+
+    <EditText
+        android:id="@+id/SearchID"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Searching "
+        />
+
+    <Button
+        android:id="@+id/showID"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Show Data"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    android:padding="20dp"
+    android:id="@+id/ViewID"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/feedbackName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLines="1"
+        android:maxLength="40"
+        android:text="Enter Your Name  :"
+        />
+    <EditText
+        android:id="@+id/feedbackComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLines="1"
+        android:maxLength="40"
+        android:text="Enter Feeback   :"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/ButtonSendID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/ButtonClearId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+
+</LinearLayout>

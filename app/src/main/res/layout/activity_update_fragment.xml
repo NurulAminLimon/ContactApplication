@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".UpdateFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#07E1E9"
+        app:titleTextColor="#E8E4EE"
+        app:title="Information"
+        app:subtitle="update and delete Option :"
+        ></android.support.v7.widget.Toolbar>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewpagerID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayoutID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#22DEFF"
+            app:tabTextColor="#FDF7F7"
+            app:tabIndicatorColor="#141313"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="#0C17EE"
+            >
+
+
+        </android.support.design.widget.TabLayout>
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
